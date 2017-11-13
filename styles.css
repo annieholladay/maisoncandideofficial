@@ -129,7 +129,7 @@ footer {
  }
 
  #info {
-  font-family: 'Raleway', sans-serif;
+
   height: 400px;
   width: 1000px;
   margin: 0 auto;
@@ -137,7 +137,8 @@ footer {
   margin-bottom: 100px;
   font-weight: 100;
   color:black;
-  font-size: 40px;
+ font-size: 1.8em;
+   font-family: 'Raleway', sans-serif;
 
  }
 a{
@@ -346,10 +347,26 @@ font-size: 30px;
 
 .daria{
   margin-top: -8%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 #mailchimp{
-  margin-top: -20%;
+  margin-top: 17%;
+  margin-bottom: 10%;
+
+}
+.sub{
+  margin-top: 5%;
+  font-size: 1.4em;
+}
+
+#me {
+  font-size: .8em;
+   font-family: 'Raleway', sans-serif;
+}
+
+#contactinfo{
+  font-size: .8em;
+   font-family: 'Raleway', sans-serif;
 }
 
 
