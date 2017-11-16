@@ -137,10 +137,11 @@ footer {
   margin-bottom: 100px;
   font-weight: 100;
   color:black;
- font-size: 1.8em;
-   font-family: 'Raleway', sans-serif;
+  font-size: 1.8em;
+  font-family: 'Raleway', sans-serif;
 
  }
+
 a{
   color:#ab1623;
 }
@@ -307,25 +308,7 @@ h6{
 
 }
 
- .dropdown {
-    position: relative;
-    display: inline-block;
 
-}
-
-.dropdown-content {
-    display: none;
-    background-color: #f9f9f9;
-    min-width: 160px;
-
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 #menu {
 font-size: 30px;
  margin: 20px;
@@ -357,6 +340,7 @@ font-size: 30px;
 .sub{
   margin-top: 5%;
   font-size: 1.4em;
+  font-family: 'Raleway', sans-serif;
 }
 
 #me {
@@ -367,6 +351,33 @@ font-size: 30px;
 #contactinfo{
   font-size: .8em;
    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 500px) {
+  body {
+
+
+      width: 100%;
+  }
+
+
+.icons {
+height: 5%;
+width: 5%;
+margin-top: -35;
+}
+
+img{
+  max-height: 80%;
+  max-width: 80%;
+  text-align: center;
+}
+#info{
+  font-size: 20px;
+  width: 300px;
+}
+
+
+
 }
 
 
