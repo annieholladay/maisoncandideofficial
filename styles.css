@@ -375,6 +375,27 @@ img{
   font-size: 20px;
   width: 300px;
 }
+#contact{
+   font-size: 20px;
+width: 300px;
+}
+#about{
+font-size: 20px;
+width: 300px;
+}
+a{
+font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  color: grey;
+  display: inline;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Shrikhand', cursive;
+}
 
 
 
