@@ -369,9 +369,10 @@ margin-top: -35;
 padding: 10px 30px 10px 1px;
 }
 
-img{
-  max-height: 90%;
-  max-width: 90%;
+
+.logo{
+  max-height: 90px;
+  max-width: 270px;
   text-align: center;
 }
 #info{
@@ -379,8 +380,10 @@ img{
   width: 300px;
 }
 #contact{
-   font-size: 20px;
-width: 300px;
+font-size: 20px;
+width: 250px;
+margin: 0 auto;
+text-align: center;
 }
 #about{
 font-size: 20px;
@@ -396,16 +399,23 @@ nav li{
 
   color: grey;
   display: inline;
-  padding: 8px;
-  font-size: 15px;
+  padding: 6px;
+  font-size: 14px;
   font-family: 'Shrikhand', cursive;
 }
 nav {
   margin-left: -50px;
 }
-#infomain {
-   width: 250px;
+
+#mailchimp{
+  margin-bottom: 120px;
 }
+#chart{
+  height: 90%;
+  width: 90%;
+}
+
+
 
 
 
