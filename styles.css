@@ -2,11 +2,9 @@ body {
   text-align: center;
 }
 
-
-
-
 #main{
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
   background-image: url("https://i.pinimg.com/736x/01/c5/b3/01c5b39733dfa88e3dc7695ee41f1464--vivre-sa-vie-film-stills.jpg");
   height: 100%;
   background-position: center;
@@ -15,6 +13,36 @@ body {
   height: 800px;
   width: 1500px;
 
+}
+.big-hr{
+  background-color: black;
+  height: .25px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.title-spans{
+  padding: 0px 30px 0px 0px;
+  font-style: italic;
+  margin-top: 60px;
+
+}
+
+.list-container{
+  float: left;
+  font-size: 18px;
+  margin-left: 100px;
+
+}
+.icons-container{
+  float: right;
+  margin-right: 120px;
+}
+.footer-spans{
+  padding: 0px 30px 0px 0px;
 }
 
 .title {
@@ -31,7 +59,7 @@ body {
   text-align: center;
 }
 #shop{
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;
   font-size: 60px;
   color: white;
   list-style-type: none;
@@ -50,35 +78,44 @@ a {
   color: #ab1623;
 }
 footer {
-  position: fixed;
+
   bottom: 0;
   width: 100%;
-  max-height: 6%;
-  margin-top: 1280px;
+  max-height: 2%;
+  margin-top: 95%;
   color: black;
   padding: 2% 3%;
   background-color: white;
-  box-shadow:  0 0 25px rgba(21,30,53,.15);
-  color: white;
-  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
 }
   .icons {
   padding: 10px 60px 10px 1px;
-  margin-top: -20px;
+  margin-top: 10px;
+  height: 5%;
+  width: 5%;
 }
 .highlight {
    color: #ab1623;
    font-weight: 500;
 }
 #me{
+  margin: 0 auto;
+  margin-top: 100px;
   margin-bottom: 100px;
-  font-size: 40px;
-  color:grey;
+  font-size: 20px;
+  color: grey;
+  width: 60%;
+  font-style: italic;
+
 
 }
  #about{
 
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;
   height: 400px;
   width: 1000px;
   margin: 0 auto;
@@ -87,12 +124,13 @@ footer {
   margin-bottom: 100px;
   font-weight: 100;
   color: white;
-  font-size: 40px;
+  font-weight: 20px;
+
 
  }
 
  #contact{
-   font-family: 'Shrikhand', cursive;
+  font-family:'Rubik', sans-serif;
   height: 1200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +143,7 @@ footer {
 
  }
 #aboutcontainer{
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;;
   height: 1200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,7 +162,7 @@ footer {
  }
 
  #infomain{
- font-family: 'Raleway', sans-serif;
+ font-family: 'Rubik', sans-serif;;
  height: 1200px;
  }
 
@@ -134,11 +172,13 @@ footer {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 100px;
   font-weight: 100;
   color:black;
-  font-size: 1.8em;
-  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  width: 60%;
+  font-style: italic;
+  margin-top: 80px;
 
  }
 
@@ -152,7 +192,7 @@ a{
 
 
 .sizing{
-  margin-bottom: 500px;
+margin-bottom: 0px;
 }
 
 
@@ -182,7 +222,7 @@ nav li{
   display: inline;
   padding: 70px;
   font-size: 60px;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -196,14 +236,14 @@ img{
   color: black;
   margin-bottom: 400px;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;;
   line-height: 40px;
   float:left;
   margin-left: 30px;
 }
 .productdetails{
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;;
   line-height: 40px;
   color: black;
   margin-bottom: 400px;
@@ -226,6 +266,13 @@ img{
 }
 h6{
   color: black;
+}
+
+
+#mc_embed_signup{
+
+  font-style: italic;
+  font-family: 'Rubik', sans-serif;
 }
 
 #details{
@@ -260,24 +307,30 @@ h6{
 
 #faqlink{
   font-size: 25px;
+  font-style: italic;
 }
 #faqlink:hover{
   color: grey;
+  font-style: italic;
 }
 #aboutlink{
   font-size: 25px;
+  font-style: italic;
 }
 #contactlink{
   font-size: 25px;
+  font-style: italic;
 }
 
 #shoplink{
   font-size: 25px;
   color: grey;
+  font-style: italic;
 }
 #upcominglink{
  font-size: 25px;
   color: grey;
+  font-style: italic;
 }
 #moodlink{
  font-size: 25px;
@@ -286,12 +339,14 @@ h6{
 
 #storelink{
     font-size: 25px;
+    font-style: italic;
 }
 #white{
   color: grey;
 }
 #store{
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
 
 }
 
@@ -342,17 +397,22 @@ font-size: 30px;
 .sub{
   margin-top: 5%;
   font-size: 1.4em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+}
+.clear{
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+
 }
 
-#me {
-  font-size: .8em;
-   font-family: 'Raleway', sans-serif;
-}
+
 
 #contactinfo{
-  font-size: .8em;
-   font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+  font-size: 20px;
+   font-family: 'Rubik', sans-serif;
+   font-style: italic;
 }
 @media only screen and (max-width: 500px) {
   body {
@@ -401,7 +461,8 @@ nav li{
   display: inline;
   padding: 6px;
   font-size: 14px;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
 }
 nav {
   margin-left: -50px;
@@ -413,6 +474,8 @@ nav {
 #chart{
   height: 90%;
   width: 90%;
+  margin-top: 20px;
+
 }
 
 
